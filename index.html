@@ -1,80 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ProgramaYa!</title>
+    <title>Venech Spa</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <p class="logo">ProgramaYa!</p>
-            <nav>
-                <a href="#somos-proya">Quienes Somos</a>
-                <a href="#nuestros-programas">Nuestros Programas</a>
-                <a href="#caracteristicas">Características</a>
-            </nav>
-        </div>
-    </header>
+<header>
+<div class="container">
+<p class="logo">Venech Spa</p>
+<nav>
+<a href="https://venech.cl/"> Inicio</a>
+<a href="https://venech.cl/nosotros/">Nosotros</a>
+<a href="https://venech.cl/productos/">Categoria</a>
+<a href="https://venech.cl/contacto/">Contacto</a>
+</nav>
+</div>
+</header>
 
-    <section id="hero">
-        <h1>Aprendé a Programar <br>con los Mejores</h1>
-        <button>APLICÁ YA!</button>
-    </section>
+<section id="hero">
+    <div class="div-imagen-fondo">
+        <h1>Solucion para la industria<br></h1>
+        <button>Consulta YA</button>
+      </div>
+</section>
 
-    <section id="somos-proya">
-        <div class="container">
-            <div class="img-container"></div>
-            <div class="texto">
-
-                <h2>Somos <span class="color-acento">ProgramaYa!</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum accusamus, perspiciatis odio nemo minus vel!</p>
+<section id="somos-venech">
+<div class="container">
+<div class="img-container"></div>
+<div class="texto">
+<h2>Somos <span class="color-acento">Venech!</span></h2>
+<p>Venech es una empresa que nace para cubrir la creciente necesidad de generar una mayor accesibilidad y oportunidad de las pequeñas y medianas empresas</p>
+</div>
+</div>
+</section>
+<section id="nuestras-categorias">
+    <div class="container">
+        <h2>Nuestras Categorias</h2>
+        <div class="programas">
+            <div class="carta">
+                <h3>ALIMENTACION</h3>
+                <p>Venech nace de 2 </p>
+                <button>+ Info</button>
             </div>
-        </div>
-    </section>
-
-    <section id="nuestros-programas">
-        <div class="container">
-            <h2>Nuestros Programas</h2>
-            <div class="programas">
-                <div class="carta">
-                    <h3>Programador Front-end</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
-                    <button>+ Info</button>
-                </div>
-                <div class="carta">
-                    <h3>Programador Full-Stack</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
-                    <button>+ Info</button>
-                </div>
-                <div class="carta">
-                    <h3>Programador Python</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
-                    <button>+ Info</button>
-                </div>  
+            <div class="carta">
+                <h3>MADERA</h3>
+                <p>VENECH 2 PERSONAS</p>
+                <button>+ Info</button>
             </div>
+            <div class="carta">
+                <h3>METAL</h3>
+                <p>VENECH 2 PERSONAS</p>
+                <button>+ Info</button>
+            </div>  
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="caracteristicas">
-        <div class="container">
-            <ul>
-                <li>✔️ 100% online</li>
-                <li>✔️ Flexibilidad de horarios</li>
-                <li>✔️ Soporte 1:1</li>
-                <li>✔️ Asistencia financiera</li>
-            </ul>
-        </div>
-    </section>
+<section id="caracteristicas">
+<div class="container">
+    <html lang="es">
+        <head>
+          <meta charset="UTF-8">
+          <title>Formulario de contacto</title>
+        
+          <!-- Enlace al documento css. no aplicable en codepen.
+          <link rel="stylesheet" type="text/css" href="contact-form.css">
+        -->
+          
+          </head>
+        
+        
+        <body>  
+          
+          <!-- formulario de contacto en html y css -->  
+        
+          <div class="contact_form">
+        
+            <div class="formulario">      
+              <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+        
+        
+                  <form action="submeter-formulario.php" method="post">       
+        
+                    
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                      
+                        <p>
+                          <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+                    
+                        <p>
+                          <label for="telefone" class="colocar_telefono">Teléfono
+                          </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>    
+                      
+                        <p>
+                          <label for="website" class="colocar_website">Sitio web
+                          </label>
+                            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                        </p>    
+                      
+                        <p>
+                          <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>    
+                      
+                        <p>
+                          <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                          </label>                     
+                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                        </p>                    
+                      
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>          
+                 
+</section>
 
-    <section id="final">
-        <h2>Listo para programar?</h2>
-        <button>APLICÁ YA!</button>
-    </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; ProgramaYa 2021</p>
-        </div>
-    </footer>
+<section id="final">
+<h2>CONSULTA YA</h2>
+<button>Consulta</button>
+</section>
+
+<footer>
+<div class="container">
+    <div class="container" >
+        <p>&copy; Venech 2023</p>
+        <ul>
+          <li><a href="/acerca-de">Acerca de Venech</a></li>
+          <li><a href="/conectar">Conectar con nuestros tecnico</a></li>
+          <li><a href="/rrss">Redes Sociales</a></li>
+        </ul>
+        
+</footer>
 </body>
 </html>
