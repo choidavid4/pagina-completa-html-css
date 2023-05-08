@@ -13,7 +13,7 @@ body{
 
 h1{ font-size: 3.5em;}
 h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
+h3{ font-size: 3.5;}
 p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
@@ -26,11 +26,11 @@ button{
     border: 2px solid rgba(0,0,0,0.3);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(35, 192, 45);
 }
 
 button:hover{
-    background-color: rgb(101, 33, 165);
+    background-color: rgb(34, 87, 7);
 }
 
 .container{
@@ -38,7 +38,7 @@ button:hover{
     margin: auto;
 }
 
-.color-acento{ color:blueviolet; }
+.color-acento{ color:rgb(24, 147, 39); }
 
 header{
     background-color: rgb(245,245,245);
@@ -49,13 +49,13 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: green;
     font-size: 1.6em;
 }
 
 header .container{
     display: flex;
-    flex-direction: column;
+    flex-direction:block;
     align-items: center;
 }
 
@@ -74,7 +74,7 @@ header a{
 }
 
 header a:hover{
-    color: blueviolet;
+    color: green;
 }
 
 #hero{
@@ -88,46 +88,51 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    )
-    ,url("media/hero.jpg");
+    ),url("media/hero.jpg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 #hero h1{
-    color: white;
+    color:green;
 }
 
 #hero button{
     font-size: 1.75em;
 }
 
-#somos-proya .container{
+#somos-venech .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 50px 12px;
 }
 
-#nuestros-programas{
-    background-color: rgb(30,30,30);
+#somos-venech{
+    background-color:whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+#nuestras-categorias{
+    background-color: rgb(23, 85, 2);
     color: white;
     text-align: center;
 }
 
-#nuestros-programas .container{
+#nuestras-categorias .container{
     padding: 150px 12px;
 }
 
-#nuestros-programas h2{
+#nuestras-categorias h2{
     margin-top: 0;
     font-size: 3.2em;
 }
 
-#nuestros-programas p{
+#nuestras-categorias p{
     display: none;
 }
 
-#nuestros-programas .carta{
+#nuestras-categorias .carta{
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -141,7 +146,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("media/alimentacion-end.jpg");
 
 }
 
@@ -151,7 +156,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("media/madera-end.jpg");
 }
 
 .carta:nth-child(3){
@@ -160,14 +165,15 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("media/metal-end.jpg");
 
 }
 
 #caracteristicas .container{
     text-align: center;
-    padding: 250px 12px;
+    padding: 50px 10px;
 }
+
 
 #caracteristicas li{
     margin: 16px 0px;
@@ -180,7 +186,7 @@ header a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(30,30,30);
+    background-color: rgb(25,25,25);
     color: white;
     height: 80vh;
 }
@@ -231,12 +237,12 @@ footer .container{
         font-size: 5em;
     }
 
-    #somos-proya .container{
+    #somos-venech .container{
         display: flex;
         justify-content: space-evenly;
     }
 
-    #somos-proya .texto{
+    #somos-venech .texto{
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -246,42 +252,42 @@ footer .container{
         justify-content: center;
     }
 
-    #somos-proya h2{
+    #somos-venech h2{
         margin-top: 0px;
     }
 
-    #somos-proya .img-container{
-        background-image: url("media/somos-proya.jpg");
+    #somos-venech .img-container{
+        background-image: url("media/Logo-end.png");
         background-size: cover;
         background-position: center center;
-        height: 500px;
-        width: 400px; 
+        height: 150px;
+        width: 200px; 
     }
 
-    #nuestros-programas .programas{
+    #nuestras-categorias .programas{
         display: flex;
         justify-content: center;
     }
 
-    #nuestros-programas p{
+    #nuestras-categorias p{
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestros-programas h2{
+    #nuestras-categorias h2{
         font-size: 4em;
     }
 
-    #nuestros-programas h3{
+    #nuestras-categorias h3{
         margin-top: 0;
     }
 
-    #nuestros-programas .carta{
+    #nuestras-categorias .carta{
         padding: 50px;
         background-size: 100% 150px;
         background-repeat: no-repeat;
         background-position-y: 0;
-        background-color: rgba(50, 50, 50, 1);
+        background-color: rgb(10, 10, 10);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     }
 
@@ -291,7 +297,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("media/alimentacion-end.jpg");
 
     }
 
@@ -301,7 +307,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("media/madera-end.jpg");
     }
 
     .carta:nth-child(3){
@@ -310,15 +316,144 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("media/metal-end.jpg");
 
     }
 
     #caracteristicas{
-        background-image: url("media/background-2.jpeg");
-        background-repeat: no-repeat;
-        background-size: 500px 400px;
-        background-position: calc(100vw - 500px) 120px;
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ab4493;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+       
+       
     }
 
     #caracteristicas .container{
@@ -326,9 +461,11 @@ footer .container{
     }
 
     #caracteristicas ul{
-        margin-left: 100px;
+        margin-left:100px;
     }
 
+
+    
     #final h2{
         font-size: 5em;
     }
@@ -337,6 +474,7 @@ footer .container{
         font-size: 2em;
     }
 
+    
     footer .container{
         justify-content: flex-end;
     }
